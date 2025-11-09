@@ -1,4 +1,3 @@
-# pc_ble_receiver.py
 import asyncio
 import csv
 from bleak import BleakScanner, BleakClient

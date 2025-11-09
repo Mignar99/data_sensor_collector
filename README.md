@@ -1,5 +1,4 @@
-(The file `/workspaces/data_sensor_collector/README.md` exists, but is empty)
-# data_sensor_collector — Overview
+# Data Sensor Collector — Overview
 
 This repository contains firmware and host-side tools for collecting environmental sensor data with an ESP32-C6 device.
 

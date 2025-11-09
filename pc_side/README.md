@@ -1,4 +1,4 @@
-# PC-side tools for data_sensor_collector
+# PC-side tools for Data Sensor Collector
 
 This folder contains tools that run on a host computer (PC) and interact with the ESP32-C6 device-side firmware.
 

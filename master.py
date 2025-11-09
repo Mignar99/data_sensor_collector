@@ -1,10 +1,10 @@
 from machine import Pin, I2C
 import network
 import time
-from mux import Multiplexer
-from sensors import SCD40Sensor, GravitySensor
-from sd_manager import SDCardLogger  # Import the SDLogger class
-from ble_sender import BLEPeripheral
+from utils.mux import Multiplexer
+from utils.sensors import SCD40Sensor, GravitySensor
+from utils.sd_manager import SDCardLogger  # Import the SDLogger class
+from utils.ble_sender import BLEPeripheral
 
 """
 This script manages the data collection process from multiple sensors connected via a multiplexer (MUX),

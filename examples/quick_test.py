@@ -1,7 +1,7 @@
 from machine import Pin, I2C
 import network
 import time
-from sensors import SCD40Sensor
+from utils.sensors import SCD40Sensor
 
 
 # ---- Disable Wi-Fi ----

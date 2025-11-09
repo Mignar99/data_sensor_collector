@@ -8,4 +8,4 @@ time.sleep(1)
 
 # You can also use exec if needed:
 # exec(open("scd40_read.py").read())
-import bridge_ble
+import master

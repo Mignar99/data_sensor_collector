@@ -2,6 +2,9 @@ import time
 from machine import I2C, Pin
 import asyncio
 
+'''
+Based on Adafruit_CircuitPython_SCD4X repo on GitHub
+'''
 SCD40_ADDRESS = 0x62
 
 class SCD40Sensor:
@@ -89,7 +92,9 @@ class SCD40Sensor:
             print("Sensor read error:", e)
             return None, None, None
 
-
+'''
+Based on DFRobot_OxygenSensor repo in GitHubs
+'''
 ADDRESS_0 = 0x70
 ADDRESS_1 = 0x71
 ADDRESS_2 = 0x72

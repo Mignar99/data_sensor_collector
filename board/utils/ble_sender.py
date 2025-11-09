@@ -100,7 +100,7 @@ class BLEPeripheral:
             for d in data:
                 self.buffer.append(d)
             all_data = self.buffer
-            # Group the data into batches of 3-5 dictionaries for efficient transfer 
+            # Group the data into batches of 2-5 dictionaries for efficient transfer 
             BATCH_SIZE = 2  # Adjust for optimal performance depending on the size
             for i in range(0, len(all_data), BATCH_SIZE):
                 batch = all_data[i:i + BATCH_SIZE]

@@ -20,10 +20,6 @@ Running several measurements at once makes it possible to track how atmospheric 
 
 The setup also supports both long-term logging and live monitoring: the board stores high-resolution data on an SD card while simultaneously streaming batches over BLE to a host computer. This combination allows teams to observe experiments as they unfold and still retain complete datasets for analysis later.
 
-In the photo, you can see an example experiment setup featuring 14 sensors.
-
-
-
 ## Getting started
 
 1. Read `board/README.md` for hardware wiring and how to flash MicroPython onto the ESP32-C6.

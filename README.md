@@ -20,7 +20,7 @@ Running several measurements at once makes it possible to track how atmospheric 
 
 The setup also supports both long-term logging and live monitoring: the board stores high-resolution data on an SD card while simultaneously streaming batches over BLE to a host computer. This combination allows teams to observe experiments as they unfold and still retain complete datasets for analysis later.
 
-In the photo, you can see an example experiment setup featuring 14 sensors in total: 7 CO₂ sensors and 7 O₂ sensors.
+In the photo, you can see an example experiment setup featuring 14 sensors.
 
 
 
